@@ -1,7 +1,7 @@
 ## Project Management Standards Repository ##
 A comprehensive web application for exploring, comparing, and managing project management standards including PMBOK, PRINCE2, and ISO 21500.
 
-🌟 Features
+🌟# Features #
 📚 Standards Repository
 Complete Standards Library: Full content for PMBOK 7th Edition, PRINCE2 7th Edition, and ISO 21500:2021
 
@@ -13,7 +13,7 @@ Navigation: Hierarchical table of contents with deep linking
 
 Multiple Formats: Support for web viewing with links to official PDF/EPUB sources
 
-⚖️ Comparison Engine
+⚖️ # Comparison Engine #
 Side-by-Side Analysis: Compare methodologies across key topics
 
 Topic-Based Comparisons: Pre-built comparisons for Risk Management, Quality Management, Stakeholder Engagement, and more
@@ -24,7 +24,7 @@ Insights Dashboard: Comprehensive analysis of similarities, differences, and uni
 
 Implementation Recommendations: Practical guidance for methodology selection
 
-🔧 User Experience
+🔧 # User Experience #
 Responsive Design: Works seamlessly on desktop, tablet, and mobile
 
 Modern UI: Clean, professional interface with intuitive navigation
@@ -33,7 +33,7 @@ Fast Performance: Optimized loading and smooth interactions
 
 Accessibility: WCAG-compliant design patterns
 
-🚀 Quick Start
+🚀 # Quick Start #
 Prerequisites
 Node.js (v14 or higher)
 
@@ -85,7 +85,7 @@ Frontend: http://localhost:3000
 
 Backend API: http://localhost:5000
 
-📁 Project Structure
+📁 # Project Structure #
 text
 project-standards-repository/
 ├── backend/
@@ -150,7 +150,7 @@ GET /api/comparisons - Get all comparisons
 
 POST /api/comparisons - Create new comparison
 
-🎯 Usage Examples
+🎯 # Usage Examples #
 Exploring Standards
 Navigate to the Standards section
 
@@ -171,7 +171,7 @@ Click section links to navigate to standards
 
 Review insights and recommendations
 
-🔧 Development
+🔧 # Development #
 Adding New Standards
 Create standard document in MongoDB format
 
@@ -193,7 +193,7 @@ Update color scheme in CSS variables
 
 Adjust responsive breakpoints as needed
 
-🤝 Contributing
+🤝 # Contributing #
 We welcome contributions! Please see our Contributing Guidelines for details.
 
 Fork the repository
