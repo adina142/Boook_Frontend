@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "https://book-backend1-1.onrender.com";
+const API_BASE_URL = process.env.REACT_APP_API_URL || "https://book-backend1-1.onrender.com/api";
 
 export const useFetch = (endpoint) => {
   const [data, setData] = useState([]);
@@ -27,4 +27,3 @@ export const useFetch = (endpoint) => {
 
   return { data, loading, error };
 };
-
